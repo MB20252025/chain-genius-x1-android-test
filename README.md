@@ -2,10 +2,8 @@
 
 A copy of the Supply Chain Intelligence Engine for the owner's **physical Android verification** only. It will be deleted after testing.
 
-- **What it contains:** the browser application as regression-tested on 21 Nov 2026. That is earlier Stage 3 work and X1 together, not an
-  X1-only version. **Nothing here is formally accepted.**
-- **Source:** `MB20252025/chain-genius-consulting`, branch `development/v0.7` at `eddf09b`, plus the uncommitted Stage 3 + X1 working tree
-  that passed the final X1 regression. The source repository was not changed. `SOURCE-MANIFEST.sha256` lists every copied file's checksum.
+- **What it contains:** the Tag-6 candidate: earlier Stage 3 work (**not formally accepted**) and X1 (accepted 21 Nov 2026) together.
+- **Source:** `MB20252025/chain-genius-consulting`, commit `dc169025220548c03a0ad82e47828e5dceebaa15` only, copied with `git show` (no working-tree files). Rollback: commit `cd16dcc` of this repository. `SOURCE-MANIFEST.sha256` lists every copied file's checksum.
 - **Data:** synthetic only (Northstar demo dataset and three test variants). No customer or personal data.
 - **Paths:** the original `applications/inventory-intelligence-engine/` layout is kept. Only `index.html`, `README.md`, `.nojekyll` and
   `SOURCE-MANIFEST.sha256` at the top level are new (navigation and labelling; they do not touch the application).
